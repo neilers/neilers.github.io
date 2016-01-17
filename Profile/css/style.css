@@ -1,0 +1,70 @@
+/* css comments look like this */
+
+body {
+	background-image: url(../images/bg.jpg);
+	font-family: Helvetica, Arial, sans-serif;
+	background-size: 100% autoxx;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.main {
+	background-color: rgba(255,255,255,0.8);
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+h1 {
+	font-family: 'Righteous', cursive;
+	text-shadow: 0px 10px 5px rgba(255,255,255,1);
+	text-align: center;
+	border-bottom: 2px solid black;
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+h3 {
+	color: blue;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+h3:hover {
+	color: lightblue;
+}
+
+img {
+	width: 300px;
+	margin: 0 auto;
+	display: block;
+	border: 30px dashed blue;
+	border-radius: 50% 0 95% 30%;
+}
+
+p,
+ol,
+ul {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	color: #dd3300;
+	text-decoration: none;
+}
+a:hover {
+	color: #aa0000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
